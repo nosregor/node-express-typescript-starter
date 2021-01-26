@@ -8,3 +8,4 @@ This is a **node.js, express, typescript** starter with minimal setup to get you
 * Nodemon
 * Eslint
 * Prettier
+* Husky

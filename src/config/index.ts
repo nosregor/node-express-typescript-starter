@@ -5,10 +5,6 @@ dotenv.config();
 interface IConfig {
   name: string;
   port: string | number;
-  database: {
-    MONGO_URI: string;
-  };
-  secret: string;
 }
 
 function getStringEnv(
@@ -34,19 +30,11 @@ const PORT: string | number = getStringEnv('PORT', '3000');
 const development: IConfig = {
   name: NAME,
   port: PORT,
-  database: {
-    MONGO_URI: MONGO_URI,
-  },
-  secret: SECRET,
 };
 
 const production: IConfig = {
   name: NAME,
   port: PORT,
-  database: {
-    MONGO_URI: MONGO_URI,
-  },
-  secret: SECRET,
 };
 
 const config: {

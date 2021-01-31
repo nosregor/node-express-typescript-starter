@@ -1,4 +1,4 @@
-# node-typescript-service
+# node-express-typescript-starter
 
 This is a **node.js, express, typescript** starter with minimal setup to get you up and running!
 
